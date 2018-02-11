@@ -10,7 +10,7 @@ body {
     color: black;
 }
 
-h1 {
+header h1 {
     border: 1px solid black;
     background-color: #3D3D5B;
     padding-top: 10px;
