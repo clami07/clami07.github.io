@@ -1,0 +1,24 @@
+/*@media only screen and (min-width: 37.5em) {
+    nav button{
+        display:none;
+    }
+   Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    
+  
+  /*article p.town-article img { width: 62.666%; float:right; }   responsive images */
+
+
+@media only screen and (min-width: 37.5em) {
+    article p.town-article img {
+        width:50%; float:right;
+    }
+    .clearfix{
+        overflow:auto;
+        zoom:1;
+    }
+    }
+@media only screen and (min-width: 37.5em) {
+        article p{
+            font-size: 1em;
+        }
+}
