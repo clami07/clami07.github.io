@@ -1,0 +1,39 @@
+
+
+/* This refer to the navigation */
+@media only screen and (max-width: 60em) {
+    header .subheading{
+     margin-bottom:15%;
+    }
+}
+@media only screen and (min-width: 35em) {
+     
+    nav button{
+        display:none;
+    }
+    nav ul.hide{
+        display: block;
+    }
+    nav ul{
+        margin-left:2%;
+    }
+    nav ul li{
+        float:left;
+    }
+    nav ul li a{
+        
+        padding: .8rem 1rem;
+    }
+/* This refer to the article */
+
+    article p.town-article img {
+        width:50%; float:right;
+    }
+    .clearfix{
+        overflow:auto;
+        zoom:1;
+    }
+    article p{
+        font-size: 1em;
+        }
+}
