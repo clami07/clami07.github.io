@@ -80,9 +80,7 @@ main{
 main section .wrapper{
     display: grid;
     
-}
-main section .gallery{
-    border: 1px solid black;
+
 }
 
 main section img{
