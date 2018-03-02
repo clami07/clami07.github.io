@@ -12,11 +12,13 @@ div {
      margin:auto;
 }
 table {
+    
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     border:1px solid #ddd;
     border-collapse: collapse;
-    width:50%;
+    box-shadow:5px 5px 10px gray;
+    width:300px;
     
 }
 th, tr, td {
@@ -33,6 +35,7 @@ thead {
     font-weight: 900;
     font-size: 30px; 
     padding:40px;
+    
 }
 tbody th, .style {
     background-color: #628ca6;
