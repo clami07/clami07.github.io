@@ -9,4 +9,13 @@
     nav ul li a{
         padding: .6rem 1rem;
     }
+    
+    /*-----Form adjustments-----*/
+    
+@media only screen and (min-width: 64rem) {
+    main div#content {
+        width: 50%;
+        margin:25%;
+        margin-top: auto;
+    }
 }

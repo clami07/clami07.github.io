@@ -39,30 +39,30 @@
      </nav>
   
 
-   <main>
+   <main class="form">
      <div id="content" class="clearfix">
-     <h2>Storm or unusual weather report</h2>  
+     <h2>Storm report</h2>  
      <div class="row">
      <div class= "left">
      <p>Progress: <progress value="3" max="5"></progress></p>
-     <form action="" method="post" enctype="multipart/form-data" name="attend" id="conference">
+     <form action="/action_thanks.html" method="post" enctype="multipart/form-data" name="attend" id="stormreport">
+         
      <fieldset>
      <legend><span></span></legend>
          
      <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full name" pattern="[a-zA-Z -._]{5,99}" required></label>
          
-     <label><span>Email:</span><input name="email" type="email" value="" placeholder="storm@gmail.com"></label>
+     <label><span>Email:</span><input name="email" type="email" value="" placeholder="storm@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></label>
          
      <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="4563339878" pattern="[0-9]{10,20}" required></label>
          
      <label><span>ZIP code:</span><input name="zipcode" type="text" value="" placeholder="12584" pattern="[0-9]{5}" required></label>
          
-     <label><span>ZIP code:</span><input name="zipcode" type="text" value="" placeholder="12584" pattern="[0-9]{5}" required></label>
-         
-     <label><span>Storm date:</span><input name="stormdate" type="date" value="mm/dd/yyyy"/></label>
+     <label><span>Storm date:</span><input name="stormdate" 
+    type="date" value="mm/dd/yyyy"></label>
      
      <label><span>Storm type:</span>
-     <input name="stormtype" list="stormtypelist">
+     <input name="stormtype"  list="stormtypelist">
      <datalist id="stormtypelist">
 			<option value="Flash Flood">
   	        <option value="Hail">
@@ -76,7 +76,7 @@
 		<input name="ratingrange" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 		<span id="ratingvalue">5</span>
          
-        <label><span>Storm region:</span>
+        <label><span>Storm region:(This field is required)</span>
         <select name="stormregion" required>
             <option value="">Select region</option>
             <option value="Franklin">Franklin</option>
@@ -86,9 +86,9 @@
          </label>
          
          <label><span>User in-danger:</span>
-         <input type="radio" name="dangerlevel" value="Yes" checked>Yes<br>
+         <container><input type="radio" name="dangerlevel" value="Yes" checked>Yes<br>
          <input type="radio" name="dangerlevel" value="Maybe"> Maybe<br>
-         <input type="radio" name="dangerlevel" value="No">No
+         <input type="radio" name="dangerlevel" value="No">No<br><br></container>
          </label>
          
          <label><span>Additional Information:</span>
@@ -96,7 +96,7 @@
 Enter text here...</textarea>
              </label>
          
-         <input type="submit">
+         <input type="submit" value="Submit" class="submitBtn">
   
      </fieldset>
      </form>  
