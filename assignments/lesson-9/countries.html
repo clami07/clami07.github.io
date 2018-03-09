@@ -43,7 +43,7 @@ request.send();
 request.onload = function() {
   var visitedCountries = request.response;
   populateHeader(visitedCountries);
-  showHeroes(visitedCountries);
+  showCountries(visitedCountries);
 }
 
 //Retrieving the JSON data and converting it into a JS object
@@ -53,7 +53,7 @@ function populateHeader(jsonObj) {
   header.appendChild(myH1);
 
   var myPara = document.createElement('p');
-  myPara.textContent = 'visitedBy: ' + jsonObj['visitedBy'] + ' // since: ' + jsonObj['since'];
+  myPara.textContent = 'VisitedBy: ' + jsonObj['visitedBy'] + ' // Since: ' + jsonObj['since'];
   header.appendChild(myPara);
 }
 
