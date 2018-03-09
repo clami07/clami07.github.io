@@ -1,0 +1,68 @@
+/* || general styles */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+  background: linear-gradient(135deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+  color:#BBC3C7;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  color:#0B77BA;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 64rem) {
+    
+    
+    section {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 1em;
+    }
+}
+@media only screen and (max-width: 35em){
+section {
+    display: grid;
+    
+    }
+}

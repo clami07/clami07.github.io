@@ -1,0 +1,42 @@
+{
+  "topic" : "Beautiful Countries",
+  "visitedBy" : "Yamilka Cuellar",
+  "since" : 2010,
+  "residentPlace" : "Virginia Beach",
+  "active" : true,
+  "countries" : [
+
+    {
+      "name" : "Cuba",
+      "rating" : 3,
+      "language" : "Spanish",
+      "visitedPlaces" : [
+        "La Habana",
+        "Viñales",
+        "Varadero"
+      ]
+    },
+    {
+      "name" : "Spain",
+      "rating" : 2,
+      "language" : "Spanish",
+      "visitedPlaces" : [
+        "Las Palmas",
+        "Maspalomas",
+        "El roque nublo"
+      ]
+    },
+    {
+      "name" : "United Satate",
+      "rating" : 1,
+      "language" : "English",
+      "visitedPlaces" : [
+        "Virginia Beach",
+        "Utah",
+        "Washington DC",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}

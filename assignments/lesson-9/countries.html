@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Beautiful Countries</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+      
+      <script>
+
+// These grab references to the header and sectionand store them in a variable.
+
+var header = document.querySelector('header');
+var section = document.querySelector('section');
+
+//store the URL of the JSON to retrieve in a variable.
+
+var requestURL = 'superheroes.json';
+
+// create a new request object.
+var request = new XMLHttpRequest();
+
+//open a new request.
+request.open('GET', requestURL);
+
+//Setting the responseType to JSON
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var visitedCountries = request.response;
+  populateHeader(visitedCountries);
+  showHeroes(visitedCountries);
+}
+
+//Retrieving the JSON data and converting it into a JS object
+function populateHeader(jsonObj) {
+  var myH1 = document.createElement('h1');
+  myH1.textContent = jsonObj['topic'];
+  header.appendChild(myH1);
+
+  var myPara = document.createElement('p');
+  myPara.textContent = 'visitedBy: ' + jsonObj['visitedBy'] + ' // since: ' + jsonObj['since'];
+  header.appendChild(myPara);
+}
+
+// Creating the hero information cards.
+function showCountries(jsonObj) {
+  var places = jsonObj['countries'];
+      
+  for (var i = 0; i < places.length; i++) {
+    var myArticle = document.createElement('article');
+    var myH2 = document.createElement('h2');
+    var myPara1 = document.createElement('p');
+    var myPara2 = document.createElement('p');
+    var myPara3 = document.createElement('p');
+    var myList = document.createElement('ul');
+
+    myH2.textContent = places[i].name;
+    myPara1.textContent = 'Language: ' + places[i].language;
+    myPara2.textContent = 'Rating: ' + places[i].rating;
+    myPara3.textContent = 'Favorite Places:';
+        
+    var favoritePlaces = places[i].visitedPlaces;
+    for (var j = 0; j < favoritePlaces.length; j++) {
+      var listItem = document.createElement('li');
+      listItem.textContent = favoritePlaces[j];
+      myList.appendChild(listItem);
+    }
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myList);
+
+    section.appendChild(myArticle);
+  }
+}
+          </script>
+  </body>
+</html>
