@@ -38,12 +38,13 @@ var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
 //Setting the responseType to JSON
-request.responseType = 'json';
+request.responseType = 'text';
 request.send();
 
 }
 request.onload = function() {
-  var visitedCountries = request.response;
+  var visitedCountriesText = request.response;
+  var visitedCountries = JSON.parse(visitedCountriesText);
   populateHeader(visitedCountries);
   showCountries(visitedCountries);
 }
