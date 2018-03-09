@@ -28,7 +28,8 @@ var section = document.querySelector('section');
 
 //store the URL of the JSON to retrieve in a variable.
 
-var requestURL = 'https://github.com/clami07/clami07.github.io/blob/master/assignments/lesson-9/favoriteCountries.json';
+var requestURL =
+    'https://raw.githubusercontent.com/clami07/clami07.github.io/master/assignments/lesson-9/favoriteCountries.json';
 
 // create a new request object.
 var request = new XMLHttpRequest();
@@ -40,6 +41,7 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
+}
 request.onload = function() {
   var visitedCountries = request.response;
   populateHeader(visitedCountries);
