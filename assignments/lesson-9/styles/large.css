@@ -1,0 +1,51 @@
+
+  
+
+@media only screen and (min-width: 64rem) {
+    article p.town-article img {
+        width: 50%;
+        height: auto;
+    }
+    nav ul li a{
+        padding: .6rem 1rem;
+    }
+}
+    
+    /*-----Form adjustments-----*/
+    
+@media only screen and (min-width: 64rem) {
+    main div#content {
+        width: 50%;
+        margin:25%;
+        margin-top: auto;
+    }
+    
+    /* home page (indexweather) */
+    
+ main p.weatherStory img {
+        float: right;
+        width: 50%;
+        height: auto;     
+    }
+    
+    .home h3 {
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .cityData {
+    
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items:center;
+        margin-left: 10%;
+        width:50%;
+    }
+    
+    /* Clearfix: force an element not to colapse */
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+    }
