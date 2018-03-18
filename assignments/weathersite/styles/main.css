@@ -38,7 +38,21 @@ header {
         text-align: center;
         color: #ffffff;
     }
-   
+    
+    article .springfieldRecords img{
+        width:50%;
+        margin: auto;
+    }
+    
+    article .greenvilleRecords img{
+    width: 50%;
+    margin: auto;
+
+    }
+   article .franklinRecords img{
+    width: 50%;
+    margin: auto;
+}
 
 }
 
@@ -146,9 +160,9 @@ article h3{
     margin-top: 10%;
     color: #DE8806;
 }
-article.franklinRecords img{
+article .franklinRecords img{
     width: 100%;
-    height: auto;
+    margin: auto;
 }
 
 /* Footer all pages */
@@ -278,7 +292,7 @@ main section img{
     
 main .borderStory img {
         width: 100%;
-        height: auto;
+        margin: auto;
 }
 
  .home h3 {
@@ -295,15 +309,15 @@ main .borderStory img {
 
 /*  Greenville  */
 
-article.greenvilleRecords img{
+article .greenvilleRecords img{
     width: 100%;
-    height: auto;
+    margin: auto;
 }
 
 /*  Springfield  */
 
-article.springfieldRecords img{
+article .springfieldRecords img{
     width: 100%;
-    height: auto;
+    margin: auto;
 }
 

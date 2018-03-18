@@ -88,4 +88,18 @@ main#content {
     
     }
     
+    /*  Greenville  */
+
+article .greenvilleRecords img{
+    width: 100%;
+    margin: auto;
+}
+
+/*  Springfield  */
+
+article .springfieldRecords img{
+    width: 100%;
+    margin: auto;
+}
+    
 }
