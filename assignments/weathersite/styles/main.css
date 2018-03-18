@@ -1,0 +1,309 @@
+*{
+font-family: 'Nanum Myeongjo', serif;
+box-sizing: border-box;
+
+}
+
+
+/*  responsive code for small screen   */
+
+@media only screen and (max-width: 35em){
+    
+    /* Forecast on the Franklin page */
+    
+    table.forecast{
+        display: none;
+    
+    }
+
+    /* Form on the Storm Center page */
+    
+.form {
+    width: 100%;
+    margin: auto;
+    }
+    
+    /* Header all pages */
+
+.headerh1 {
+    font-size: 1.5rem; 
+}
+
+header .subheading {
+    font-size: 0.5rem;
+    margin-bottom:20%;
+}
+    
+header {
+        text-align: center;
+        color: #ffffff;
+    }
+   
+
+}
+
+
+/* end of responsive code for small screen  */
+
+
+body {
+    margin: 0;
+    font-size:16px;   
+}
+
+header{
+    padding:5%;
+    background-image:url(ftown-q6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+header h1 {
+    
+    text-align: center;
+    
+    
+}
+header p.subheading{
+    
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    
+}
+
+/* Navigation all pages */
+
+nav button{
+    margin: .2rem 2%;
+    background-color:white;
+    border:none;
+    font-size: 1.6rem;
+    
+}
+nav{
+    background-color: black;
+}
+nav ul{    
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    
+}
+
+nav ul li a {
+    display: flex;
+    color:white;
+    font-weight: bold;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    padding: .8rem 2%;
+    text-decoration: none;    
+}
+nav ul li.active a{
+    background-color: #DE8806;
+}
+nav ul li a:hover{
+    color:#3F7FBF;
+}
+nav ul.hide{
+    display:none;
+}
+
+/*   Franklin page */
+
+main {
+    margin:20px;
+}
+ main h2{
+    text-align: center;
+     color: #DE8806;
+}
+section h3{
+    text-align: center;
+    margin-top: 10%;
+    color: #DE8806;
+}
+
+.franklinWeather.img {
+    float: right;
+    width:100%;
+    height: auto;
+
+}
+section table.forecast {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    
+}
+article h3{
+    text-align: center;
+    margin-top: 10%;
+    color: #DE8806;
+}
+article.franklinRecords img{
+    width: 100%;
+    height: auto;
+}
+
+/* Footer all pages */
+
+footer{
+    padding: 2em;
+    background-color: black;
+    color: white;
+    margin-top: 4em;
+    text-align: center;
+}
+
+/* Clearfix: force an element not to colapse */
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+/* Storm Center page */
+
+main .form p {
+    margin: 20px;
+}
+.form#stormreport {
+    margin: 1em 3%;
+}
+.fieldset {
+    background-color:#3F7FBF;
+    border-radius: .8em;
+    border: #000000 solid 1px;
+    
+}
+
+label {
+    display:block;
+    margin: .5em;
+}
+label span {
+    display: block;
+    font-size: 1em;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+input.submitBtn {
+    -webkit-appearance: none;
+    color:#ffffff;
+    border:solid 1px;
+    border-radius: 7px;
+    width: 50%;
+    margin: .5em 8px ;
+    font-size: 1em;
+    padding:.6em;
+    background:#000000;
+    box-shadow: 4px 4px 10px #3F7FBF;   
+}
+label input {
+    background-color: #f4f2ef;
+    color:#917a56;
+    padding: .3em .3em .3em 2em;
+    border: solid 1px #b0aaa0;
+    border-radius: 5px;
+    font-size: .9em;
+    width: 100%;
+    background-image: url(../images/ico_validation.png);
+    background-repeat: no-repeat;
+    background-position: 4px -11px;
+}
+label input[type=radio] {
+    width: 20px;
+    height: 15px;
+    
+    
+}
+label container input[value]{
+  margin: 0px;
+  margin-top: 5px;
+  
+}
+
+#rating {
+    margin-left: 10px;  
+}
+input #rating[value=5]{
+    margin-top: 10px;
+}
+input:focus {
+    box-shadow: 1px 1px 4px #000000 inset;
+}
+input:required {
+    background-position: 4px -61px;   
+}
+input:focus:invalid {
+    background-position: 4px -111px;
+}
+input:required:valid {
+    background-position: 4px -161px;
+}
+
+
+/* Gallery page  */
+
+main{
+    margin:20px;
+}
+
+ main section h2{
+     text-align: center;
+     color: #DE8806;;     
+}
+
+main section .wrapper{
+    display: grid;
+    
+
+}
+
+main section img{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* home page (indexweather) page */
+
+
+    
+main .borderStory img {
+        width: 100%;
+        height: auto;
+}
+
+ .home h3 {
+    text-align: center;
+    color: #DE8806;
+}
+ .cityData article {
+         margin-left: 20%;           
+    }
+    
+    .cityData h4{
+        color:#3F7FBF;
+    }
+
+/*  Greenville  */
+
+article.greenvilleRecords img{
+    width: 100%;
+    height: auto;
+}
+
+/*  Springfield  */
+
+article.springfieldRecords img{
+    width: 100%;
+    height: auto;
+}
+

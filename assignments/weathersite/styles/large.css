@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 64rem) {
+    
+    
+    /* Header large view all pages */ 
+    
+
+    
+    div.headerContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+
+    
+    /* Franklin page */
+    
+    article div.franklinRecords {
+    display: grid;
+    grid-template-columns:300px 300px;
+    align-items: center;
+    grid-column-gap:100px;
+    margin-left: 10%;
+   
+}
+    
+   
+    
+    /* Navigation */
+    
+    nav ul li a{
+        padding: .6rem 1rem;
+    
+}
+    
+    /* Storm Center page */
+    
+
+    main div#content {
+        width: 50%;
+        margin: auto;
+        margin-top: 0;
+        
+    }
+    
+    .form h2 {
+        text-align: center;
+    }
+    
+    /* home page (indexweather) */
+    
+    main .borderStory {
+    display: grid;
+    grid-template-columns:400px 400px;
+    align-items: center;
+    grid-column-gap:100px;
+    margin-left: 10%;
+   
+}
+
+    
+    .cityData {
+    
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items:center;
+        margin-left: 10%;
+        width:50%;
+        
+    }
+    
+    
+    
+    /* Clearfix: force an element not to colapse */
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
+/*   Gallery page  */
+    
+    
+    main section .wrapper{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 1em;
+    }
+    main section .gallery:hover{
+        box-shadow:5px 5px 10px blue;
+        
+    }
+    
+    /*  Greenville  */
+    
+    
+ article div.greenvilleRecords {
+    display: grid;
+    grid-template-columns:300px 300px;
+    align-items: center;
+    grid-column-gap:100px;
+    margin-left: 10%;
+   
+}
+    
+    /*  Springfield  */
+    
+    article div.springfieldRecords {
+    display: grid;
+    grid-template-columns:300px 300px;
+    align-items: center;
+    grid-column-gap:100px;
+    margin-left: 10%;
+   
+}
+}

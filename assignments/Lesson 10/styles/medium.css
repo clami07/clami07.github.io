@@ -1,0 +1,64 @@
+
+
+/* This refer to the navigation */
+@media only screen and (max-width: 60em) {
+    header .subheading{
+     margin-bottom:15%;
+    }
+}
+@media only screen and (min-width: 35em) {
+     
+    nav button{
+        display:none;
+    }
+    nav ul.hide{
+        display: flex;
+    }
+    nav ul{
+        margin-left:2%;
+    }
+    nav ul li{
+        display: flex;
+    }
+    nav ul li a{
+        
+        padding: .8rem 1rem;
+    }
+    
+    figure.image{
+    float: right;
+    margin-right: auto;
+    }
+/* This refer to the article */
+
+    article p.town-article img {
+        width:50%; float:right;
+    }
+    .clearfix{
+        overflow:auto;
+        zoom:1;
+    }
+    article p{
+        font-size: 1em;
+        }
+    
+    /* home page (index weather)
+*/
+    
+    .home h3 {
+        text-align: center;
+    }
+    
+    main p.weatherStory img {
+        width: 100%;
+        height: auto;  
+    }
+    
+      .cityData article {
+         margin-left: 25%;           
+    }
+    
+    .cityData h4{
+        color:#3F7FBF;
+    }
+}

@@ -1,0 +1,138 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Franklin</title>
+  <meta name="author" content="Yamilka Cuellar Piorno">
+  <meta name="description" content="Weather information from Franklin">
+    
+  <!-- external style references in the proper cascading order -->  
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet"><!-- Google API font reference -->    
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+    
+<body>
+     <header>
+        
+        <div class="headerContainer">
+            <h1 class="headerh1"> Weather Proof</h1> 
+                <p class="subheading"> "Our purpose, to help you get ready for your day"</p>
+        
+        </div>
+    </header>
+    
+        <!-- site navigation use placeholder references -->
+    
+    <nav class="container">  
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+    	   <li><a href="indexweather.html">Home</a></li>
+    	   <li class="active"><a href="index.html">Franklin</a></li>
+    	   <li><a href="greenville.html">Greenville</a></li>
+    	   <li><a href="springfield.html">Springfield</a></li>
+    	   <li><a href="stormcenter.html">Storm Center</a></li>
+    	   <li><a href="gallery.html">Gallery</a></li>
+         </ul>		
+     </nav>
+  
+
+   <main class="franklin">
+     <h2>The City of Franklin</h2>
+       
+     <section class="franklinWeather">
+        <h3>Weather conditions for <span id="place">City, State</span></h3>
+        <div class="clearfix">
+        <figure class="image">
+         <img src="images/franklin-originalq6.jpg" alt="Sunny-day" sizes="50vw" srcset="images/franklin-sq6.jpg 400w, images/franklin-mq6.jpg 800w, images/franklin-lq6.jpg 1200w">
+        </figure>
+       
+        <p><strong> Current Temperture:</strong> <span id = "currentTemp">120</span>&deg;</p>
+       
+        <img src="images/._placeholder.png" alt="current weather" id="weather_icon">
+       
+        <p> <strong>Current Weather String: </strong><span id = "currentWeather">Partly cloudy</span></p>
+       
+        <p><strong> Current Wind:</strong> <span id="currentWind">8.5</span>mph</p>
+       
+        <p> <strong>Forecast day:</strong> <span id ="forecastDay"></span> </p></div>
+    </section>
+       
+   <section>
+     
+    
+       <table class="forecast">
+        <tr>
+            <th colspan="10">10-Day Forecast</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+        </tr>
+
+       </table>
+      
+       
+    </section>
+       
+    <article class="franklinNews">
+       
+       <h3>Franklin Breaks Record</h3>
+     <div class="franklinRecords">
+        <p
+        class="clearfix">
+        
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+        <div> <img src="images/article-tsunami6.jpg" alt="The Beach"> </div>
+       </div>
+       
+   </article>
+    
+  
+  </main>
+    
+  <footer>
+    <aside>
+      <i>1570 Westen Rd Miami, Fl, 33333</i>
+        <i>1-800-333-4531</i>
+        <i>weathersite@yahoo.com</i>
+     </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Weather Proof | <span id="currentdate"></span></p>
+  </footer>
+    
+   
+    
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/franklin.js"></script>
+  
+  
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+@media only screen and (max-width: 60em) {
+    
+}
+
+
+@media only screen and (min-width: 35em) {
+    
+    /* Heder */
+    
+    header h1 {
+    font-size: 3rem; 
+}
+
+header .subheading {
+    font-size: 1.5rem;
+    
+     margin-bottom:15%;
+    
+}
+    
+header {
+        text-align: center;
+        color: #ffffff;
+        
+    }
+    
+   /* This refer to the navigation */
+    
+    nav button{
+        display:none;
+    }
+    nav ul.hide{
+        display: flex;
+    }
+    nav ul{
+        margin-left:2%;
+    }
+    nav ul li{
+        display: flex;
+    }
+    nav ul li a{
+        
+        padding: .8rem 1rem;
+    }
+    
+    figure.image{
+    float: right;
+    margin-right: auto;
+    }
+    
+/* Franklin page */
+
+   
+    
+    /* home page (index weather)
+*/
+    
+    
+      .cityData article {
+         margin-left: 25%;           
+    }
+    
+    .cityData h4{
+        color:#3F7FBF;
+    }
+
+
+/*   Gallery page  */
+
+main section .wrapper{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 1em;
+    
+    }
+
+/*  Storm page form   */
+
+main#content {
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    
+    }
+    
+}
