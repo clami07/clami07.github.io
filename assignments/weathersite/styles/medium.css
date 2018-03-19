@@ -49,7 +49,10 @@ header {
     }
     
 /* Franklin page */
-
+ #weather_icon {
+    width: 60px;
+    height: auto;
+    }
    
     
     /* home page (index weather)
