@@ -128,6 +128,20 @@ nav ul.hide{
     display:none;
 }
 
+/* home page (indexweather) page */
+
+ .home h3 {
+    text-align: center;
+    color: #DE8806;
+}
+ .cityData article {
+         margin-left: 20%;           
+    }
+    
+    .cityData h4{
+        color:#3F7FBF;
+    }
+
 /*   Franklin page */
 
 
@@ -174,6 +188,25 @@ article .franklinRecords img{
 }
 
 
+
+/*  Greenville */
+
+
+}
+
+div .greenvilleCont {
+    margin-left: 15%;
+    margin-top:20%;
+
+}
+
+/*  Springfield  */
+
+ .springfieldCont {
+    margin-left: 15%;
+    margin-top: 20%;
+    
+}
 
 /* Storm Center page */
 
@@ -279,45 +312,6 @@ main section img{
 }
 
 
-/* home page (indexweather) page */
-
-
-    
-
-
- .home h3 {
-    text-align: center;
-    color: #DE8806;
-}
- .cityData article {
-         margin-left: 20%;           
-    }
-    
-    .cityData h4{
-        color:#3F7FBF;
-    }
-
-/*  Greenville */
-
-
-}
-
-div .greenvilleCont {
-    margin-left: 15%;
-    margin-top:20%;
-
-}
-
-/*  Springfield  */
-
-
-
- .springfieldCont {
-    margin-left: 15%;
-    margin-top: 5%;
-    
-
-}
 
 /* Footer all pages */
 
