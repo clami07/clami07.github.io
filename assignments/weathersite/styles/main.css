@@ -3,11 +3,17 @@ font-family: 'Nanum Myeongjo', serif;
 box-sizing: border-box;
 
 }
+body {
+    margin: 0;
+    font-size:16px;   
+}
 
 
 /*  responsive code for small screen   */
 
 @media only screen and (max-width: 35em){
+    
+      
     
     /* Forecast on the Franklin page */
     
@@ -33,18 +39,8 @@ box-sizing: border-box;
     
     /* Header all pages */
 
-.headerh1 {
-    font-size: 2rem; 
-}
-
-header .subheading {
-    font-size: 1rem;
-    margin-bottom:20%;
-}
-    
-header {
-        text-align: center;
-        color: #ffffff;
+header .subheading{
+     margin-bottom:20%;
     }
     
     article .springfieldRecords img{
@@ -74,27 +70,24 @@ body {
 }
 
 header{
-    padding:5%;
+    padding: 5%;
     background-image:url(ftown-q6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-
-
-header h1 {
     
+}
+header h1{
+    text-decoration: underline;
     text-align: center;
-    
-    
+    color:white;
+    line-height:0.5;
 }
-header p.subheading{
-    
+header .subheading{
     text-align: center;
     font-weight: bold;
-    text-decoration: none;
-    font-style: italic;
+    color:white;
     
 }
 
