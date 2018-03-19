@@ -15,13 +15,12 @@
 header .subheading {
     font-size: 1.5rem;
     
-     margin-bottom:15%;
-    
 }
     
 header {
         text-align: center;
         color: #ffffff;
+        height: 300px;
         
     }
     
@@ -88,18 +87,8 @@ main#content {
     
     }
     
-    /*  Greenville  */
+    
 
-article .greenvilleRecords img{
-    width: 100%;
-    margin: auto;
-}
 
-/*  Springfield  */
-
-article .springfieldRecords img{
-    width: 100%;
-    margin: auto;
-}
     
 }

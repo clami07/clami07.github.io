@@ -14,7 +14,15 @@ box-sizing: border-box;
     table.forecast{
         display: none;
     
+    
     }
+    
+    /*  Home page  */
+    
+    main .borderStory img {
+        width: 100%;
+        margin: auto;
+}
 
     /* Form on the Storm Center page */
     
@@ -26,11 +34,11 @@ box-sizing: border-box;
     /* Header all pages */
 
 .headerh1 {
-    font-size: 1.5rem; 
+    font-size: 2rem; 
 }
 
 header .subheading {
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom:20%;
 }
     
@@ -130,7 +138,7 @@ nav ul.hide{
 /*   Franklin page */
 
 main {
-    margin:20px;
+    /*margin:20px;*/
 }
  main h2{
     text-align: center;
@@ -138,14 +146,20 @@ main {
 }
 section h3{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     color: #DE8806;
 }
 
-.franklinWeather.img {
-    float: right;
-    width:100%;
-    height: auto;
+
+
+.image img {
+    
+    width:60%;
+}
+
+div.pContainer {
+    margin-left: 15%;
+    margin-top:5%;
 
 }
 section table.forecast {
@@ -163,6 +177,11 @@ article h3{
 article .franklinRecords img{
     width: 100%;
     margin: auto;
+}
+
+#weather_icon {
+    width: 60px;
+    height: auto;
 }
 
 /* Footer all pages */
@@ -290,10 +309,7 @@ main section img{
 
 
     
-main .borderStory img {
-        width: 100%;
-        margin: auto;
-}
+
 
  .home h3 {
     text-align: center;
@@ -307,17 +323,26 @@ main .borderStory img {
         color:#3F7FBF;
     }
 
-/*  Greenville  */
+/*  Greenville */
 
-article .greenvilleRecords img{
-    width: 100%;
-    margin: auto;
+
+}
+
+div .greenvilleCont {
+    margin-left: 15%;
+    margin-top:20%;
+
 }
 
 /*  Springfield  */
 
-article .springfieldRecords img{
-    width: 100%;
-    margin: auto;
+
+
+ .springfieldCont {
+    margin-left: 15%;
+    margin-top: 5%;
+    
+
 }
+
 

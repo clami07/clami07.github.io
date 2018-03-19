@@ -9,13 +9,7 @@
     /* Header large view all pages */ 
     
 
-    
-    div.headerContainer {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
     
 
     
@@ -23,10 +17,10 @@
     
     article div.franklinRecords {
     display: grid;
-    grid-template-columns:500px 500px;
+    grid-template-columns:300px 300px;
     align-items: center;
     grid-column-gap:100px;
-    margin-left: 10%;
+    margin-left: 25%;
    
 }
     
@@ -55,15 +49,21 @@
     
     /* home page (indexweather) */
     
-    main .borderStory {
+    main div.borderStory {
     display: grid;
-    grid-template-columns:400px 400px;
+    grid-template-columns:30% 30%;
     align-items: center;
-    grid-column-gap:100px;
-    margin-left: 10%;
-   
-}
-
+    grid-column-gap:10%;
+    margin-left: 20%;
+    
+    }
+    
+    div img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
     
     .cityData {
     
@@ -104,10 +104,10 @@
     
  article div.greenvilleRecords {
     display: grid;
-    grid-template-columns:500px 500px;
+    grid-template-columns:300px 300px;
     align-items: center;
     grid-column-gap:100px;
-    margin-left: 10%;
+    margin-left: 25%;
    
 }
     
@@ -115,10 +115,10 @@
     
     article div.springfieldRecords {
     display: grid;
-    grid-template-columns:500px 500px;
+    grid-template-columns:300px 300px;
     align-items: center;
     grid-column-gap:100px;
-    margin-left: 10%;
+    margin-left: 25%;
    
 }
     
