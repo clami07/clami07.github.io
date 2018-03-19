@@ -5,71 +5,23 @@
 
 @media only screen and (min-width: 64rem) {
     
-    
-    /* Header large view all pages */ 
-    
-
-
-    
-
-    
-    /* Franklin page */
-    
-    article div.franklinRecords {
-    display: grid;
-    grid-template-columns:300px 300px;
-    align-items: center;
-    grid-column-gap:100px;
-    margin-left: 25%;
-   
-}
-    
-    #weather_icon {
-    width: 60px;
-    height: auto;
-    }
-    
-   
-    
-    /* Navigation */
+     /* Navigation */
     
     nav ul li a{
         padding: .6rem 1rem;
     
 }
     
-    /* Storm Center page */
-    
-
-    main div#content {
-        width: 50%;
-        margin: auto;
-        margin-top: 0;
-        
-    }
-    
-    .form h2 {
-        text-align: center;
-    }
-    
     /* home page (indexweather) */
     
     main div.borderStory {
     display: grid;
-    grid-template-columns:30% 30%;
+    grid-template-columns:40% 40%;
     align-items: center;
     grid-column-gap:10%;
-    margin-left: 20%;
+    margin-left: 10%;
     
     }
-    
-    div img {
-        width: 100%;
-        height: auto;
-    }
-    
-    
-    
     .cityData {
     
         display:grid;
@@ -81,27 +33,20 @@
     }
     
     
+    /* Franklin page */
     
-    /* Clearfix: force an element not to colapse */
-.clearfix:after{
-    content:"";
-    display:table;
-    clear:both;
+    article div.franklinRecords {
+    display: grid;
+    grid-template-columns:400px 400px;
+    align-items: center;
+    grid-column-gap:100px;
+    margin-left: 25%;
+   
 }
-
-
-/*   Gallery page  */
     
-    
-    main section .wrapper{
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 1em;
-    }
-    main section .gallery:hover{
-        box-shadow:5px 5px 10px blue;
-        
+    #weather_icon {
+    width: 60px;
+    height: auto;
     }
     
     /*  Greenville  */
@@ -127,7 +72,40 @@
    
 }
     
-   
+    /* Storm Center page */
+    
+
+    main div#content {
+        width: 50%;
+        margin: auto;
+        margin-top: 0;
+        
+    }
+    
+    .form h2 {
+        text-align: center;
+    }
+
+/*   Gallery page  */
     
     
+    main section .wrapper{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 1em;
+    }
+    main section .gallery:hover{
+        box-shadow:5px 5px 10px blue;
+        
+    }
+    
+    /* Clearfix: force an element not to colapse */
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+    
+     
 }

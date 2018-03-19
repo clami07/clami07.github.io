@@ -3,10 +3,6 @@ font-family: 'Nanum Myeongjo', serif;
 box-sizing: border-box;
 
 }
-body {
-    margin: 0;
-    font-size:16px;   
-}
 
 
 /*  responsive code for small screen   */
@@ -43,9 +39,11 @@ header .subheading{
      margin-bottom:20%;
     }
     
+    /* Article Franklin, Springfield, and Greenville  */
+    
     article .springfieldRecords img{
-        width:50%;
-        margin: auto;
+    width:50%;
+    margin: auto;
     }
     
     article .greenvilleRecords img{
@@ -68,6 +66,8 @@ body {
     margin: 0;
     font-size:16px;   
 }
+
+/*  Header  */
 
 header{
     padding: 5%;
@@ -130,9 +130,7 @@ nav ul.hide{
 
 /*   Franklin page */
 
-main {
-    /*margin:20px;*/
-}
+
  main h2{
     text-align: center;
      color: #DE8806;
@@ -143,11 +141,9 @@ section h3{
     color: #DE8806;
 }
 
-
-
 .image img {
     
-    width:60%;
+    width:100%;
 }
 
 div.pContainer {
@@ -177,22 +173,7 @@ article .franklinRecords img{
     height: auto;
 }
 
-/* Footer all pages */
 
-footer{
-    padding: 2em;
-    background-color: black;
-    color: white;
-    margin-top: 4em;
-    text-align: center;
-}
-
-/* Clearfix: force an element not to colapse */
-.clearfix:after{
-    content:"";
-    display:table;
-    clear:both;
-}
 
 /* Storm Center page */
 
@@ -336,6 +317,23 @@ div .greenvilleCont {
     margin-top: 5%;
     
 
+}
+
+/* Footer all pages */
+
+footer{
+    padding: 2em;
+    background-color: black;
+    color: white;
+    margin-top: 4em;
+    text-align: center;
+}
+
+/* Clearfix: force an element not to colapse */
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
 }
 
 
