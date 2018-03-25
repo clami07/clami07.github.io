@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic Filters</title>
+	<link rel="stylesheet" href="css/filters.css">
+	<!--<script src="js/jquery-2.2.1.min.js"></script>-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js
+"></script>
+    
+	<script>
+	$(function(){
+		// All jQuery code goes here
+        $('li:first').css('background-color', 'rgb(248, 95, 95)');
+        
+        $('li:last').css('background-color', 'rgb(248, 95, 95)');
+        
+       //You can do the same code below with odd instead of even to change color of the odd elements of the list. 
+        $('li:even').css('background-color', 'rgb(248, 95, 95)');
+        
+        $('li:eq(3)').css('background-color', 'rgb(248, 95, 95)');
+        
+        
+	})
+	</script>
+</head>
+<body>
+<ul>
+		<li>Apples</li>
+		<li>Oranges</li>
+		<li>Peaches</li>
+		<li>Strawberries</li>
+		<li>Kiwi</li>
+</ul>
+
+</body>
+</html>
