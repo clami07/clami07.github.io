@@ -46,7 +46,7 @@ div.motto {
 .topnav {
     overflow: hidden;
     background-color: #a1a1a1;
-    padding-left:16px  
+    padding-left:10px  
 }
 
 .topnav a {
@@ -54,7 +54,7 @@ div.motto {
     display: block;
     color: #513232;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 5px;
     text-decoration: none;
     font-size: 20px;
     font-weight:800;
