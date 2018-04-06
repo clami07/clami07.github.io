@@ -22,11 +22,19 @@
     <header class="container">
         
         <div class="clearfix">
-            <figure class="logo">
-            <img src="images/mountainLogo.png" alt="theMountainSpokelogo" srcset="images/255x255logo.png 3x, images/150x150logo.png 2x, images/75x75logo.png 1x" >
+            <picture class="logo">
+                <source media="(min-width:768px)"
+            srcset="images/225x225logo.png">
+                <source media="(min-width:600px)"
+            srcset="images/150x150logo.png">
+                <source media="(max-width:600px)"
+            srcset="images/75x75logo.png">
+                <img src="images/mountainlogo.png" alt="The mountain spoke logo">
+                
+            <!--<img src="images/mountainLogo.png" alt="theMountainSpokelogo" srcset="images/75x75logo.png 1x, images/150x150logo.png 2x, images/255x255logo.png 3x">-->
             <div class="headerMotto"><h1>THE MOUNTAIN SPOKE</h1>
             <div class="motto">"You're only one bike ride away from a good mood."</div></div>
-            </figure></div>
+            </picture></div>
         
     </header>
     
@@ -84,6 +92,7 @@
     
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+  
   
   
     
