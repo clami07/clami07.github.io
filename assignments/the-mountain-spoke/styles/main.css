@@ -14,7 +14,7 @@
 /* Header all pages */
 
 header.container {
-    padding:5%; 
+    padding:10%; 
 }
     
 picture.logo {
@@ -98,12 +98,4 @@ footer {
 
 @media only screen and (max-width: 600px){
 
-h1 {
-    font-size: 1em;
 }
-
-div.motto {
-    font-size: 0.5em;
-
-}
-
