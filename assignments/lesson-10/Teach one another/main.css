@@ -148,6 +148,7 @@ p, h2 {
 .topnav .icon {
   display: none;
 }
+/* This hide the menu list */
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -156,6 +157,7 @@ p, h2 {
     display: block;
   }
 }
+/* This make the hamburguer button responsive when it is opened */
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -164,6 +166,8 @@ p, h2 {
     right: 0;
     top: 0;
   }
+/* This makes the hamburguer button open and close, with the js code */
+    
   .topnav.responsive a {
     float: none;
     display: block;
