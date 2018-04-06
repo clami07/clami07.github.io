@@ -54,7 +54,7 @@ div.motto {
     display: block;
     color: #513232;
     text-align: center;
-    padding: 5px 5px;
+    padding: 5px 20px;
     text-decoration: none;
     font-size: 20px;
     font-weight:800;
@@ -90,9 +90,41 @@ div.motto {
     text-align: left;
   }
 
+/* Footer all pages */
+
 footer {
     background-color: #a1a1a1;
+    font-family: 'Gentium Basic', serif;
+    text-align: center;
+    color:#513232;
+    font-weight: 600;
+    height:15rem;
+    padding: 2rem;
 }
+
+.footer-bar {
+    line-height: 2rem;  
+}
+
+/* Home page */
+
+/* Main */
+
+.home h2 {
+    text-align: center;
+    color:#e27d1b;
+}
+
+.bicycleTour {
+    width: 100%;
+    margin: auto;
+}
+
+.homeTour {
+    display:grid;
+    
+}
+
 
 /*  responsive code for small screen   */
 
