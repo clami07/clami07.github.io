@@ -96,7 +96,7 @@ footer {
 
 /*  responsive code for small screen   */
 
-@media only screen and (min-width: 400px){
+@media only screen and (max-width: 600px){
 
 h1 {
     font-size: 1em;
