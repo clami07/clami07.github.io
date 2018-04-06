@@ -20,8 +20,7 @@ header.container {
 picture.logo {
     display:flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .headerMotto {
@@ -97,8 +96,14 @@ footer {
 
 /*  responsive code for small screen   */
 
-@media only screen and (max-width: 35em){
+@media only screen and (min-width: 400px){
 
+h1 {
+    font-size: 1em;
+}
+
+div.motto {
+    font-size: 0.5em;
 
 }
 
