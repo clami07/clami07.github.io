@@ -21,5 +21,71 @@ div.motto {
 .topnav .active {
     color:#ffffff;
 }
+    
+/* Main */
+
+/* SLider with text */
+    
+.bozemanBiking {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap: 20px;
+    align-items: center;
+    }
+    
+.trailsText {
+    font-size:1.4rem;    
+    }
+    
+p.contact {
+     font-size:1.5rem;
+     margin:0;
+    }
+    
+.topright {
+     font-size:1.5rem;   
+    }
+    
+.mySlides {
+    width:100%;
+    margin:auto;
+    }
+
+/* Pages links on images */
+
+.pagesLinks figure {
+    display:inline;
+    margin-left:10%;
+ }
+
+.pagesLinks {
+    margin-top:5%;    
+ }
+
+.linkImage {
+    width:25%;
+    margin:auto;  
+}
+    
+/* Related activities */
+    
+.home h4 {
+      font-size: 2rem;  
+}
+
+ .relatedAct p {
+     font-size: 1.5rem;   
+    }
+    
+ .outdoorAct {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-column-gap: 20px;
+}
+    
+.outdoorAct figure {
+     width:100%;
+     margin: auto;
+    }
   
 }

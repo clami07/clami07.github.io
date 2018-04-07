@@ -111,13 +111,16 @@ footer {
 /* Main */
 
 .home {
-    display: grid;
-    margin:20px;   
+    margin: 30px;
 }
 
 /* Heading */
 
-.home h2, h4 {
+.home h2 {
+    color:#e27d1b;
+}
+
+.home h4 {
     text-align: center;
     color:#e27d1b;
 }
