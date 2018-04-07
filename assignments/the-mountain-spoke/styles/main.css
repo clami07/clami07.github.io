@@ -110,10 +110,11 @@ footer {
 
 /* Main */
 
-main {
+.home {
     display: grid;
     margin:20px;
-    font-family: 'Simonetta'; 
+    font-family: 'Simonetta';
+    
 }
 
 /* Heading */
@@ -121,6 +122,12 @@ main {
 .home h2, h3, h4 {
     text-align: center;
     color:#e27d1b;
+}
+
+/* Text */
+
+.home p {
+   font-size: 1rem; 
 }
 
 /* Image */
