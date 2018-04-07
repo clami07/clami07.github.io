@@ -156,14 +156,13 @@ footer {
 /* Pages links on images */
 
 .pagesLinks {
-    display: grid;
-    grid-template-columns: 4,1fr;
+    display:grid;
+    grid-template-columns:1fr 1fr;
 }
 
 .linkImage {
-    width:5%;
-    margin:auto;
-    
+    width:100%;
+    margin:auto;  
 }
 
 /* Related activities images */
