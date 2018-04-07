@@ -37,8 +37,9 @@ h1 {
 
 div.motto {
     font-family: 'Simonetta', cursive;
-    font-weight: 700;
-    font-size: 0.5em;
+    font-weight: 400;
+    font-size: 0.8em;
+    
 }
 
 /* Navigation all pages */
@@ -99,7 +100,7 @@ footer {
     color:#513232;
     font-weight: 600;
     height:15rem;
-    padding: 2rem;
+    padding:1rem;
 }
 
 .footer-bar {
@@ -110,6 +111,10 @@ footer {
 
 /* Main */
 
+main {
+    font-family: 'Simonetta'; 
+}
+
 .home h2 {
     text-align: center;
     color:#e27d1b;
@@ -117,12 +122,12 @@ footer {
 
 .bicycleTour {
     width: 100%;
-    margin: auto;
+    margin: auto;    
 }
 
-.homeTour {
-    display:grid;
-    
+.bozemanBiking {
+    font-family: 'Simonetta';
+    font-size: 1.5rem;
 }
 
 
