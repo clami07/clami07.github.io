@@ -117,27 +117,9 @@ footer {
 
 /* Heading */
 
-.home h2, h3, h4 {
+.home h2, h4 {
     text-align: center;
     color:#e27d1b;
-}
-
-/* Tour Images */
-
-.homeTour {
-    position:relative;
-}
-
-/* Text on image */
-
-.topright {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 18px;
-    background-color: #e27d1b;
-    padding:20px;
-    color:#ffffff;
 }
 
 /* Silder image */
@@ -153,13 +135,38 @@ footer {
     margin: auto;    
 }*/
 
+/* Contact Info */
+
+.contactInfo {
+    position:relative;
+}
+
+.contactInfo p {
+    background-color: #513232;
+    color:#ffffff;
+    padding: 30px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* call to action */
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    background-color: #e27d1b;
+    padding:20px;
+    color:#ffffff;
+}
+
 /* Pages links on images */
 
 .pagesLinks {
     display:grid;
     grid-template-columns:1fr 1fr;
     align-items: center;
-    
 }
 
 .linkImage {
