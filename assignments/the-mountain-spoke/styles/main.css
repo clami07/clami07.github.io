@@ -99,8 +99,7 @@ footer {
     text-align: center;
     color:#513232;
     font-weight: 600;
-    height:15rem;
-    padding:1rem;
+    padding:2rem;
 }
 
 .footer-bar {
@@ -112,22 +111,59 @@ footer {
 /* Main */
 
 main {
+    display: grid;
+    margin:20px;
     font-family: 'Simonetta'; 
 }
 
-.home h2 {
+/* Heading */
+
+.home h2, h3, h4 {
     text-align: center;
     color:#e27d1b;
 }
 
-.bicycleTour {
+/* Image */
+
+.homeTour {
+    position:relative;
+}
+
+/* Text on image */
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    background-color: #e27d1b;
+    padding:20px;
+    color:#ffffff;
+}
+
+/* Silder image */
+
+.mySlides {
+    display:none;
+    width: 100%;
+}
+/* Backup if the slide gets wrong */
+
+/*.bicycleTour {
     width: 100%;
     margin: auto;    
-}
+}*/
+
+/* Text */
 
 .bozemanBiking {
     font-family: 'Simonetta';
     font-size: 1.5rem;
+}
+
+.hiking, .camping {
+    width: 100%;
+    margin:auto;
 }
 
 
