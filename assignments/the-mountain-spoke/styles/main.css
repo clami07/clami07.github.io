@@ -166,11 +166,24 @@ footer {
 
 /* Pages links on images */
 
+.linkHeading { grid-area: heading;}
+.link1 { grid-area: firstlinks; }
+.link2 { grid-area: secondlinks; }
+
 .pagesLinks {
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+        'heading heading heading heading'
+        'firstlinks firstlinks secondlinks secondlinks';
     align-items: center;
 }
+
+/*.linkHeading {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 1; 
+}*/
 
 .linkImage {
     width:100%;

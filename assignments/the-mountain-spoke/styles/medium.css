@@ -12,8 +12,22 @@ div.motto {
 }
       
 /* Pages links on images */
+      
+.linkHeading { grid-area: heading;}
+.link1 { grid-area: firstlinks; }
+.link2 { grid-area: secondlinks; }
 
 .pagesLinks {
+    display:grid;
+    grid-template-areas:
+        'heading heading heading heading'
+        'firstlinks firstlinks secondlinks secondlinks';
+    
+    
+}
+
+
+/*.pagesLinks {
     display:grid;
     grid-template-columns:1fr 1fr;
     align-items: center;
@@ -22,6 +36,6 @@ div.motto {
 .linkImage {
     width:100%;
     margin:auto;  
-}
+}*/
 }
 
