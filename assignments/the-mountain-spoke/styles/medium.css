@@ -11,6 +11,17 @@ div.motto {
     font-size: 1em;
 }
       
+/* Bozeman biking */
+      
+.trailsText {
+    font-size:1rem;    
+    }
+    
+p.contact {
+     font-size:1.5rem;
+     
+    }
+      
 /* Pages links on images */
       
 .linkHeading { grid-area: heading;}
@@ -21,9 +32,7 @@ div.motto {
     display:grid;
     grid-template-areas:
         'heading heading heading heading'
-        'firstlinks firstlinks secondlinks secondlinks';
-    
-    
+        'firstlinks firstlinks secondlinks secondlinks';   
 }
 
 
