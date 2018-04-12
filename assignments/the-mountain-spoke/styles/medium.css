@@ -31,8 +31,8 @@ p.contact {
 .pagesLinks {
     display:grid;
     grid-template-areas:
-        'heading heading heading heading'
-        'firstlinks firstlinks secondlinks secondlinks';
+        'heading heading heading heading heading heading'
+        'firstlinks firstlinks firstlinks secondlinks secondlinks secondlinks';
     align-items: center;
 }
 
