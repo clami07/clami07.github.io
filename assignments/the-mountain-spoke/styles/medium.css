@@ -35,16 +35,9 @@ p.contact {
         'firstlinks firstlinks secondlinks secondlinks';   
 }
 
-
-/*.pagesLinks {
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    align-items: center;
-}
-
 .linkImage {
-    width:100%;
+    width:50%;
     margin:auto;  
-}*/
+}
 }
 
