@@ -24,17 +24,14 @@ p.contact {
       
 /* Pages links on images */
       
-.linkHeading { grid-area: heading;}
-.link1 { grid-area: firstlinks; }
-.link2 { grid-area: secondlinks; }
+.pagesLinks figure {
+    display:inline;
+    margin-left:10%;
+ }
 
 .pagesLinks {
-    display:grid;
-    grid-template-areas:
-        'heading heading heading heading heading heading'
-        'firstlinks firstlinks firstlinks secondlinks secondlinks secondlinks';
-    align-items: center;
-}
+    margin-top:5%;    
+ }
 
 .linkImage {
     width:25%;
