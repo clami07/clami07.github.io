@@ -1,6 +1,7 @@
 *{
     font-family: 'Gentium Basic', serif;
     box-sizing: border-box;
+    
 }
 
 /* Clearfix: force an element not to colapse */
@@ -204,7 +205,7 @@ footer {
     width: 50%;
 }
 
-/* Tour page reservation */
+/* Tour form reservation */
 
 main .form p {
     margin: 20px;
@@ -214,7 +215,7 @@ main .form p {
     color:#e27d1b;
 }
 
-.fieldsetTour {
+#fieldsetTour {
     
     background-color:rgba(226, 125, 27, 0.1);
     border-radius: .8em;
@@ -232,7 +233,7 @@ main .form p {
 
 .labelTour {
     display:block;
-    margin: .5em;    
+    margin: .5em;
 }
 
 .labelTour span {
@@ -263,6 +264,11 @@ input.tourFormBtn {
     border-radius: 5px;
     font-size: .9em;
     width: 100%;
+}
+
+.required {
+    color:red;
+    
 }
 
 #traillist, #time {

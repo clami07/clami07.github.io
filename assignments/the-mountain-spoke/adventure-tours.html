@@ -115,20 +115,20 @@
             
                 <form action="/action_thanks.html" method="post" enctype="multipart/form-data" name="Biking Tour Reservation" id="reservationForm">
          
-                    <fieldset class="fieldsetTour">
+                    <fieldset id="fieldsetTour" >
                         <legend>Personal Information</legend>
          
-                        <label class="labelTour"><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                        <label class="labelTour"><span class="required">Full Name: </span><input name="fullname" type="text" value="" placeholder="Full name" pattern="[a-zA-Z -._]{5,99}" ></label>
          
-                        <label class="labelTour"><span>Age: </span><input name="age" type="" value="age" placeholder="mayor o igual 18" pattern="[0-9]{2,3}" required></label>       
+                        <label class="labelTour"><span class="required">Age: </span><input name="age" type="" value="age" placeholder="mayor o igual 18" pattern="[0-9]{2,3}"></label>       
      
-                        <label class="labelTour"><span>Email:</span><input name="email" type="email" value="" placeholder="mountainbiking@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></label>
+                        <label class="labelTour"><span class="required">Email:</span><input name="email" type="email" value="" placeholder="mountainbiking@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ></label>
          
-                        <label class="labelTour"><span>Phone:</span><input name="phone" type="tel" value="" placeholder="(456)333-9878" pattern="[0-9]{10,20}" required></label>
+                        <label class="labelTour"><span class="required">Phone:</span><input name="phone" type="tel" value="" placeholder="(456)333-9878" pattern="[0-9]{10,20}"></label>
      
                     </fieldset>
          
-                    <fieldset class="fieldsetTour">
+                    <fieldset id="fieldsetTour">
                         <legend>Biking tour Information</legend>
       
                         <label class="labelTour"><span>Trail Name:</span>
