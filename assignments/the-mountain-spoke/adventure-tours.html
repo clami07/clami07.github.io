@@ -1,0 +1,200 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adventure tours</title>
+  <meta name="author" content="Yamilka Cuellar Piorno">
+  <meta name="description" content="Adventure tours page from the Mountain Spoke website. This page shows the information about the different tours the company is offering.">
+  
+    <!-- Google API font reference -->
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Simonetta" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet"> 
+    
+  <!-- external style references in the proper cascading order -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+    
+<body>
+    <header class="container">
+        
+        <div class="clearfix">
+            <picture class="logo">
+                <source media="(min-width:800px)"
+            srcset="images/150x150logo.png">
+                <source media="(min-width:600px)"
+            srcset="images/100x100logo.png">
+                <source media="(max-width:550px)"
+            srcset="images/75x75logo.png">
+                
+                
+                <img src="images/mountainlogo.png" alt="The mountain spoke logo">
+                
+            <div class="headerMotto"><h1>THE MOUNTAIN SPOKE</h1>
+            <div class="motto">"You're only one bike ride away <br><br> from a good mood."</div></div>
+            </picture></div>
+        
+    </header>
+    
+        <!-- site navigation -->
+    
+    <nav class="primaryNav">  
+         <div class="topnav" id="myTopnav">
+  <a href="home.html">Home</a>
+  <a href="adventure-tours.html" class="active">Adventure tours</a>
+  <a href="#">Events</a>
+  <a href="#">Sales</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+  <a href="#">Source references</a>
+  <a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+</div>		
+     </nav>
+  
+    
+   <main class="adventureTours">
+       
+       <div class="tourColumn">
+            <section class="tours">
+            
+                <div class="bikingTours"><h2>Biking Tour options:</h2></div>
+            
+                <div class="advancedTour"><p><strong>Tour Name:</strong> Emerald Lake <br>
+                    <strong>Trail Location:</strong> South of Bozeman down Hyalite Canyon road, about a mile paste the waterfall. <br>
+                    <strong>Trail Type:</strong> 100% single track mountain bike trail<br>
+                    <strong>Distance:</strong> 9 total miles <br>
+                    <Strong>Skill Level:</Strong> Advanced  <br>
+                    <strong>Estimated time:</strong> 4h <br>
+                    <strong>Time:</strong> 9:00 am / 2:00 pm<br>
+                    <strong>Price:</strong> $150</p>
+                </div>
+            
+                <div class="advancedImg">
+                    <img src="images/difficult-trail.jpg" alt="mountain biking" class="tourImg"></div>
+            
+                <div class="moderate"><p><strong>Tour Name:</strong> West Bridger/Foothills Road <br>                 <strong>Trail Location:</strong> Found on the north edge of Bozeman along the western flank of the Bridger Range. <br>
+                    <strong>Trail Type:</strong> Mountain bike<br>
+                    <strong>Distance:</strong> 13.7 total miles  <br>
+                    <Strong>Skill Level:</Strong> Easy to moderate <br>
+                    <strong>Estimated time:</strong> 4h<br>
+                    <strong>Time:</strong> 9:00 am / 2:00 pm<br>
+                    <strong>Price:</strong> $130</p> </div>
+           
+                <div class="moderateImg"><img src="images/moderate-trail.jpg" alt="mountain biking" class="tourImg"></div>
+            
+                <div class="easy"><p><strong>Tour Name:</strong> Sourdough Creek Nature Trail <br>
+                    <strong>Trail Location:</strong> Located on the south edge of Bozeman, running south from Kagy Boulevard.<br>
+                    <strong>Trail Type:</strong> An easy off-road family ride near town along a beautiful stream, with good opportunities to see wildlife, especially birds.<br>
+                    <strong>Distance:</strong> 4.3 total miles. <br>
+                    <Strong>Skill Level:</Strong> Easy<br>
+                    <strong>Estimated time:</strong> 2h<br>
+                    <strong>Time:</strong> 9:00 am / 2:00 pm<br>
+                    <strong>Price:</strong> $150</p></div>
+           
+                <div class="easyImg">
+                    <img src="images/easy-trail.jpg" alt="mountain biking" class="tourImg"></div>              
+                
+           </section>
+        </div>
+       
+        <div class="formColumn">
+       
+           <section id="formTour" class="clearfix"> 
+            
+                <h3>Fill this form to reserve a tour</h3>
+            
+                <form action="/action_thanks.html" method="post" enctype="multipart/form-data" name="Biking Tour Reservation" id="reservationForm">
+         
+                    <fieldset class="fieldsetTour">
+                        <legend>Personal Information</legend>
+         
+                        <label class="labelTour"><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full name" pattern="[a-zA-Z -._]{5,99}" required></label>
+         
+                        <label class="labelTour"><span>Age: </span><input name="age" type="" value="age" placeholder="mayor o igual 18" pattern="[0-9]{2,3}" required></label>       
+     
+                        <label class="labelTour"><span>Email:</span><input name="email" type="email" value="" placeholder="mountainbiking@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></label>
+         
+                        <label class="labelTour"><span>Phone:</span><input name="phone" type="tel" value="" placeholder="(456)333-9878" pattern="[0-9]{10,20}" required></label>
+     
+                    </fieldset>
+         
+                    <fieldset class="fieldsetTour">
+                        <legend>Biking tour Information</legend>
+      
+                        <label class="labelTour"><span>Trail Name:</span>
+                        <input list="traillist" name="traillist"  >
+                            <datalist id="traillist">
+			                     <option value="Emerald Lake - Advanced">
+  	                             <option value="West Bridger - Moderate">
+                                <option value="Sourdough Creek - Easy">
+		                    </datalist>
+                        </label>    
+         
+         
+                        <label class="labelTour"><span>Reservatio Date:</span><input name="reservDate" 
+                    type="date" value="mm/dd/yyyy"></label>
+         
+    
+                        <label class="labelTour"><span>Time:</span>
+                        <input list="time" name="time"  >
+                            <datalist id="time">
+			                     <option value="9:00 am">
+                                 <option value="2:00 pm">
+            
+		                    </datalist>
+                        </label>
+     
+                        <label class="labelTour"><span>Additional Information:</span>
+                            <textarea rows="8" cols="40" name="comment" form="usrform">
+Place any question or concern here ...</textarea>
+                        </label>
+         
+                        <input type="submit" value="Submit" class="tourFormBtn">
+         
+                    </fieldset>
+     
+                </form>
+               
+            </section>
+        
+        </div>
+     
+     
+       
+       
+    
+       
+       
+         
+    </main>
+    
+  <footer>
+    <aside>
+        <div class="footer">
+            <p class="footer-bar">The Mountain Spoke <br>&copy;2018 All Rights Reserved <br> <span id="currentdate"></span></p>
+            <i>1570 Westen Rd Bozeman, Montana, 33333</i><br>
+            <i>1-800-333-4531</i><br>
+            <i>bozemanbike@themountainspoke.com</i>
+        </div>
+     </aside>
+    
+  </footer>
+    
+   
+    
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  
+  
+  
+  
+    
+</body>
+</html>

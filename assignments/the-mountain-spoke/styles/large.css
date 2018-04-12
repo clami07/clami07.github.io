@@ -87,5 +87,19 @@ p.contact {
      width:100%;
      margin: auto;
     }
+    
+/* Adventure Tours page */
+    
+/* Tour form reservation */
+    
+.adventureTours {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:5%;
+    margin-right:5%;
+    align-items: center;
+    align-content: center;
+    
+}
   
 }

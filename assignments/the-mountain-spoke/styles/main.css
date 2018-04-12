@@ -197,6 +197,80 @@ footer {
     margin:auto;
 }
 
+/* Adventure tours page */
+
+.adventureTours {
+    margin:20px;
+}
+
+.bikingTours {
+    color:#e27d1b;
+}
+
+.tourImg {
+    width: 50%;
+}
+
+/* Tour page reservation */
+
+main .form p {
+    margin: 20px;
+}
+
+#formTour h3 {
+    color:#e27d1b;
+}
+
+.fieldsetTour {
+    
+    background-color:rgba(226, 125, 27, 0.1);
+    border-radius: .8em;
+    border: #000000 solid 1px;
+    color: #513232;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.labelTour {
+    display:block;
+    margin: .5em;    
+}
+
+.labelTour span {
+    display: block;
+    font-size: 1em;
+    padding-top: .9em;
+    padding-bottom: .2em;
+    color: #513232;
+    font-weight: 700;
+}
+input.tourFormBtn {
+    -webkit-appearance: none;
+    color:#ffffff;
+    border:solid 1px;
+    border-radius: 7px;
+    width: 50%;
+    margin: .5em 8px ;
+    font-size: 1em;
+    padding:.6em;
+    background:#513232;
+    box-shadow: 4px 4px 10px #824949;   
+}
+.labelTour input {
+    background-color: #f4f2ef;
+    color:#917a56;
+    padding: .3em .3em .3em 2em;
+    border: solid 1px #b0aaa0;
+    border-radius: 5px;
+    font-size: .9em;
+    width: 100%;
+}
+
+.labelTour input:focus {
+    box-shadow: 1px 1px 4px #000000 inset;
+}
+
 
 /*  responsive code for small screen   */
 
