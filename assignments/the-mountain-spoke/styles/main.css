@@ -227,8 +227,7 @@ main .form p {
 
 .txtTourForm {
     width:100%;
-    height:150px;
-    
+    height:150px;   
 }
 
 .labelTour {
@@ -264,6 +263,11 @@ input.tourFormBtn {
     border-radius: 5px;
     font-size: .9em;
     width: 100%;
+}
+
+#traillist, #time {
+   background-color: #f4f2ef;
+    color:#917a56;
 }
 
 .labelTour input:focus {
