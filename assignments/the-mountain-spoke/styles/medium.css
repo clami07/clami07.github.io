@@ -24,7 +24,7 @@ p.contact {
       
 /* Pages links on images */
       
-.linkHeading { grid-area: heading;}
+/*.linkHeading { grid-area: heading;}
 .link1 { grid-area: firstlinks; }
 .link2 { grid-area: secondlinks; }
 
@@ -38,6 +38,6 @@ p.contact {
 .linkImage {
     width:50%;
     margin:auto;  
-}
+}*/
 }
 
