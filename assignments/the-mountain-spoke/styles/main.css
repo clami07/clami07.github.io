@@ -178,13 +178,6 @@ footer {
     align-items: center;
 }
 
-/*.linkHeading {
-    grid-column-start: 1; 
-    grid-column-end: 2; 
-    grid-row-start: 1; 
-    grid-row-end: 1; 
-}*/
-
 .linkImage {
     width:100%;
     margin:auto;  
@@ -230,6 +223,7 @@ main .form p {
     font-weight: 700;
     margin-bottom: 20px;
     margin-top: 20px;
+    width:100%;
 }
 
 .labelTour {
