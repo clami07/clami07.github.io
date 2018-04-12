@@ -30,11 +30,12 @@ div.motto {
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-column-gap: 20px;
-    align-items: center;
+    align-items:center;
+    align-content: center;
     }
     
 .trailsText {
-    font-size:2rem;    
+    font-size:1.2rem;    
     }
     
 p.contact {
@@ -70,7 +71,8 @@ p.contact {
 /* Related activities */
     
 .home h4 {
-      font-size: 2rem;  
+      font-size: 1.5rem;
+      text-align: left;
 }
 
  .relatedAct p {

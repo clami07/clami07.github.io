@@ -38,20 +38,5 @@ p.contact {
     margin:auto;  
 }
       
-/*.linkHeading { grid-area: heading;}
-.link1 { grid-area: firstlinks; }
-.link2 { grid-area: secondlinks; }
-
-.pagesLinks {
-    display:grid;
-    grid-template-areas:
-        'heading heading heading heading'
-        'firstlinks firstlinks secondlinks secondlinks';   
-}
-
-.linkImage {
-    width:50%;
-    margin:auto;  
-}*/
 }
 
