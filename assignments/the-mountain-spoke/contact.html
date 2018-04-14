@@ -22,12 +22,16 @@
   <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     
   <!-- Jquery reference -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
     <script src="scripts/hide-show-menu.js"></script>
+    
 </head>
     
 <body>
+    <script src="scripts/mapLocation.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoeoEnttJdgZIwP5CCJN0_qIoRO8IqefM&callback=initMap"
+    async defer></script>
     <header class="container">
         
         <div class="clearfix">
@@ -68,10 +72,15 @@
        <h2>Contac Information</h2>
        <p>The Mountain Spoke</p>
        <p>3950 Valley Commons Drive Bozeman, MT</p>
-       <div class="map"
-       src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDoeoEnttJdgZIwP5CCJN0_qIoRO8IqefM&origin=place_id: ChIJ37Yst5pFRVMRiOpIlo-WmLs"></div>
+       <!--<iframe
+  width="450"
+  height="250"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDoeoEnttJdgZIwP5CCJN0_qIoRO8IqefM&location=45.672490,-111.090685">
+</iframe>-->
+       <div id="map"></div>
        <p>1-800-333-4531</p><p>bozemanbike@themountainspoke.com</p>
-       
+    <!--place_id:Place ID ChIJ37Yst5pFRVMRiOpIlo-WmLs, &q=Bozeman,MT-->   
        
        
          
@@ -94,7 +103,7 @@
     
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
-  <!--<script src="scripts/mapLocation.js"></script>-->
+  
   
    
     
