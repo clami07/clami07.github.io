@@ -388,17 +388,23 @@ input.tourFormBtn {
 /* Contac page */
 
 .contact {
-    width:700;
-    height:550;
+    margin: 20px;
 }
 
-#map {
-    width:600;
-  height:450;
-  border:0;
-    
+.contact h2 {
+    color:#e27d1b;
 }
-    
+
+.contact p {
+    font-weight: 700;
+}
+
+iframe {
+    width:100%;
+    margin:auto;
+    height: 500px;
+}
+
 
 /*  responsive code for small screen   */
 
