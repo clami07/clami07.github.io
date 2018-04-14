@@ -377,6 +377,13 @@ input.tourFormBtn {
     width:100%;
     margin: auto;
 }
+
+/* References page */
+
+.references table {
+    width:100%;
+    margin: auto;
+}
     
 
 /*  responsive code for small screen   */
