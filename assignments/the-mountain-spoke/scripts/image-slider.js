@@ -1,3 +1,5 @@
+// Imgage slider
+
 var myIndex = 0;
 carousel();
 
@@ -12,4 +14,9 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 6000); // Change image every 2 seconds
 }
+
+
+// Toggle to hide and show images
+
+
 

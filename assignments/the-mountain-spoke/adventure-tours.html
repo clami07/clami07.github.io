@@ -49,8 +49,8 @@
          <div class="topnav" id="myTopnav">
   <a href="home.html">Home</a>
   <a href="adventure-tours.html" class="active">Adventure tours</a>
-  <a href="#">Events</a>
-  <a href="#">Sales</a>
+  <a href="event.html">Events</a>
+  <a href="store.html">Store</a>
   <a href="#">Services</a>
   <a href="#">Contact</a>
   <a href="#">Source references</a>
@@ -60,6 +60,8 @@
   
     
    <main class="adventureTours">
+       
+       <!-- Tour options -->
        
        <div class="tourColumn">
             <section class="tours">
@@ -107,6 +109,8 @@
            </section>
         </div>
        
+       <!-- Tour form reservation -->
+       
         <div class="formColumn">
        
            <section id="formTour" class="clearfix"> 
@@ -115,12 +119,12 @@
             
                 <form action="/action_thanks.html" method="post" enctype="multipart/form-data" name="Biking Tour Reservation" id="reservationForm">
          
-                    <fieldset id="fieldsetTour" >
+                    <fieldset class="fieldsetTour" >
                         <legend>Personal Information</legend>
          
                         <label class="labelTour"><span class="required">Full Name: </span><input name="fullname" type="text" value="" placeholder="Full name" pattern="[a-zA-Z -._]{5,99}" ></label>
          
-                        <label class="labelTour"><span class="required">Age: </span><input name="age" type="" value="age" placeholder="mayor o igual 18" pattern="[0-9]{2,3}"></label>       
+                        <label class="labelTour"><span class="required">Age: </span><input name="age" type="number" value="" placeholder="mayor o igual 18"></label>       
      
                         <label class="labelTour"><span class="required">Email:</span><input name="email" type="email" value="" placeholder="mountainbiking@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ></label>
          
@@ -128,7 +132,7 @@
      
                     </fieldset>
          
-                    <fieldset id="fieldsetTour">
+                    <fieldset class="fieldsetTour">
                         <legend>Biking tour Information</legend>
       
                         <label class="labelTour"><span>Trail Name:</span>
@@ -140,8 +144,8 @@
                         </label>    
          
          
-                        <label class="labelTour"><span>Reservatio Date:</span><input name="reservDate" 
-                    type="date" value="mm/dd/yyyy"></label>
+                        <label class="labelTour"><span>Reservation Date:</span><input name="reservation Date" 
+                    type="date" value=""></label>
          
     
                         <label class="labelTour"><span>Time:</span>
@@ -153,7 +157,7 @@
                         </label>
      
                         <label class="labelTour"><span>Additional Information:</span>
-                            <textarea class="txtTourForm"  name="comment" form="usrform">
+                            <textarea class="txtTourForm"  name="comment">
 Place any question here ...</textarea>
                         </label>
          

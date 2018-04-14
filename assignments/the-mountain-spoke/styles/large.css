@@ -103,5 +103,21 @@ p.contact {
     align-content: center;
     
 }
+    
+/* Store page */
+
+.store {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+.store h3 {
+    text-align: center;
+}
+    
+.bikeOptions h4 {
+     margin-bottom:100px;
+     margin-top:60px;
+    }
   
 }

@@ -132,12 +132,6 @@ footer {
     display:none;
     width: 100%;
 }
-/* Backup if the slide gets wrong */
-
-/*.bicycleTour {
-    width: 100%;
-    margin: auto;    
-}*/
 
 /* Contact Info */
 
@@ -215,7 +209,7 @@ main .form p {
     color:#e27d1b;
 }
 
-#fieldsetTour {
+.fieldsetTour {
     
     background-color:rgba(226, 125, 27, 0.1);
     border-radius: .8em;
@@ -280,6 +274,103 @@ input.tourFormBtn {
     box-shadow: 1px 1px 4px #000000 inset;
 }
 
+/* Event page */
+
+/* Main */
+
+.event {
+    margin:20px;
+}
+
+/* Silder image */
+
+.eventSlidesImg {
+    display:none;
+    width: 100%;
+}
+
+.textImage {
+    background-color:#e27d1b;
+    opacity:0.7;
+    color: #000000;
+    font-size: 36px;
+    padding:10px  ;
+    position:absolute;
+    width: 75%;
+    margin:auto;
+    
+    
+    text-align: center;
+}
+
+/* Event information */
+
+.eventH2, h3 {
+    color:#e27d1b;
+}
+
+/* Maps */
+
+.mapsImg img {
+    width:100%;
+}
+
+.show{display:block;}
+.hide{display:none;}
+
+/* Store page */
+
+/* Main */
+
+.store {
+    margin:20px;
+}
+
+.store h2 {
+    color: #e27d1b;
+}
+
+.store h3 {
+    margin-top:50px;
+}
+
+.store .cost {
+    color: #e27d1b;
+    font-size: 1.5rem;
+}
+
+.bike {
+    width:100%;
+}
+
+.bikeOptions {
+    width:100%;
+    margin:auto;
+    color:#824949;
+    
+}
+
+
+.bikeOptions li {
+    list-style-type: none;
+}
+
+.bikeOptions table, td, th {
+    border: 1px solid #000000;
+}
+
+.bikeOptions h4 {
+    font-size: 18px;
+    line-height: 34px;
+    padding: 5px 15px;
+    cursor:pointer;
+    background:rgba(226, 125, 27, 0.1);
+}
+
+.bikeOptions ul ul {
+    display:none;
+}
+    
 
 /*  responsive code for small screen   */
 
