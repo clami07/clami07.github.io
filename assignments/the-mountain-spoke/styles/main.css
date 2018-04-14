@@ -384,6 +384,20 @@ input.tourFormBtn {
     width:100%;
     margin: auto;
 }
+
+/* Contac page */
+
+.contact {
+    width:700;
+    height:550;
+}
+
+.map {
+    width:600;
+  height:450;
+  border:0;
+    
+}
     
 
 /*  responsive code for small screen   */
