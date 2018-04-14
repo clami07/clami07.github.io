@@ -140,16 +140,24 @@ p.contact {
     text-align: center;
 }
     
-/*.accordian h4 {
-     margin-bottom:100px;
-     margin-top:60px;
-    }*/
+/* Contact page */
+    
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+ .userInfo {
+     margin-top: 80px;
+    }
     
 /* Reference page */
     
-    .references {
-        width:50%;
-        margin: auto;
-    }
+ .references {
+     width:50%;
+     margin: auto;
+}
+    
+
   
 }
