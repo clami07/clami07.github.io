@@ -147,10 +147,6 @@ p.contact {
     grid-template-columns: 1fr 1fr;
 }
     
- .userInfo {
-     margin-top: 80px;
-    }
-    
 /* Reference page */
     
  .references {
