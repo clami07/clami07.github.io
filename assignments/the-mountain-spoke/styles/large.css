@@ -147,7 +147,7 @@ p.contact {
     grid-template-columns: 1fr 1fr;
 }
     
- iframe {
+ /*iframe {
     width: 100%;
     margin: auto;
  }
@@ -155,7 +155,7 @@ p.contact {
 #reservationForm {
     width: 100%;
     margin: auto;
-}
+}*/
     
 
     
