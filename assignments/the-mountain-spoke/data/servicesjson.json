@@ -1,0 +1,31 @@
+{
+    "TuneUpsBuilds":[   
+        {"Service":"Basic Tune-up",
+        "cost":39.99},
+        {"Service":"Brake System Tune up",
+        "Cost":24.99},       
+        {"Service":"Bike Build",
+        "Cost":39.99}
+ ],
+"Wheels":[ 
+        {"Service":"Repair Inner Tube",
+        "Cost":8.99},
+        {"Service":"Adjust Hub (Front or Rear)",
+        "Cost":5.99}
+],
+    "Brakes":[
+        {"Service":"Install Chains",
+        "Cost":14.99},  
+        {"Service":"Remove Clean Reinstall Chain",
+         "Cost":9.99},
+        {"Service":"Install Pedals",
+        "Cost":4.99}
+],
+  "Handlebars/ForkHeadset":[
+        {"Service":"Fenders",
+        "Cost":12.99},
+        {"Service":"Rear Rack",
+        "Cost":4.99},
+        {"Service":"Training Wheels",
+        "Cost":12.99}
+]}

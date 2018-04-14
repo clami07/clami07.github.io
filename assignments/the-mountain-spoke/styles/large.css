@@ -145,20 +145,8 @@ p.contact {
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-    
- /*iframe {
-    width: 100%;
-    margin: auto;
- }
-    
-#reservationForm {
-    width: 100%;
-    margin: auto;
-}*/
-    
-
-    
+}   
+   
 /* Reference page */
     
  .references {
