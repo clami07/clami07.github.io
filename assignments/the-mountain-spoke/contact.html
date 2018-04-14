@@ -67,15 +67,10 @@
        <h2>Contac Information</h2>
        <p>The Mountain Spoke</p>
        <p>3950 Valley Commons Drive Bozeman, MT</p>
-       <iframe
-  width="450"
-  height="250"
-  frameborder="0" style="border:0"
-  src="//maps.googleapis.com/maps/api/js?q=place_id:ChIJ37Yst5pFRVMRiOpIlo-WmLs&key=AIzaSyAZnsB2PU63sUN4ZYnlyiXcFNhZ0eP2UFk">
-</iframe>
-       <!--<div id="map"></div>-->
+       
+       <div id="map"></div>
        <p>1-800-333-4531</p><p>bozemanbike@themountainspoke.com</p>
-    <!--place_id:Place ID ChIJ37Yst5pFRVMRiOpIlo-WmLs, &q=Bozeman,MT-->   
+      
        
        
          
@@ -98,9 +93,24 @@
     
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
-  <script src="scripts/mapLocation.js"></script>
-    <!--<script src="//maps.googleapis.com/maps/api/js?q=place_id:ChIJ37Yst5pFRVMRiOpIlo-WmLs&key=AIzaSyAZnsB2PU63sUN4ZYnlyiXcFNhZ0eP2UFk&callback=initMap"
-    async defer></script>-->
+  
+     <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    
+  <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyDoeoEnttJdgZIwP5CCJN0_qIoRO8IqefM&callback=initMap"
+  ></script>
+  
   
   
    
