@@ -147,6 +147,17 @@ p.contact {
     grid-template-columns: 1fr 1fr;
 }
     
+ iframe {
+    width: 50%;   
+ }
+    
+#reservationForm {
+    width: 50%;
+    margin: auto;
+}
+    
+
+    
 /* Reference page */
     
  .references {
