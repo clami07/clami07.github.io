@@ -1,6 +1,6 @@
 $(function(){
 		// All jQuery code goes here
-        $('.bikeOptions h4').click(function(){
+        $('.accordian h4').click(function(){
             // Hiding all open accordian
             
      $(this).parent().parent().find('ul').slideUp();

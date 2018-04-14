@@ -38,9 +38,15 @@ p.contact {
     margin:auto;  
 }
       
+/* event page */
+      
+.textImage {
+    font-size: 36px;
+      }
+      
 /* Store page */
       
-.bikeOptions {
+.accordian {
     width:75%;
     margin:auto;
       }

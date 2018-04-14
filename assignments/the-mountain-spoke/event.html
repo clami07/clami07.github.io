@@ -19,7 +19,12 @@
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
-  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    
+  <!-- Jquery reference -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="scripts/hide-show-menu.js"></script>
 </head>
     
 <body>
@@ -53,7 +58,6 @@
   <a href="store.html">Store</a>
   <a href="#">Services</a>
   <a href="#">Contact</a>
-  <a href="#">Source references</a>
   <a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
 </div>		
      </nav>
@@ -62,6 +66,8 @@
    <main class="event">
        
        <!-- Event image slider -->
+       
+       <div class="eventColumn1">
        
        <section class="eventImages">
            
@@ -105,6 +111,10 @@
                 <p> During the route we count with a Van that will carry our personal belongs all the time possible. Due the particularities of the road, the Van would have to take alternative routes, and we will have to be on our own until the specific meeting points. There, we would reload supplies, and provide maintenance to the bikes. Overnights would be on camping areas, or similar depending of the location. At the end of the page we provide more detail information about the event type, and how to come prepare. But we are here to help you during the road, and there’s nothing to fear. This is going to be a wonderful experience!!</p>               
                 
            </section>
+           
+           </div>
+       
+       <div class="eventColumn2">
        
        <section class="routeMap">
            
@@ -113,43 +123,42 @@
                
            
            
-               <div class="image1">
-           <img src="images/Great_Divide_Mountain_Bike_Route.gif" alt="Great Divide route" class="maps">
+               <div class="accordian">
                    
-                   </div>
-       </section>
-           
-           
-           <section>
-               
-           
-           
-           <img src="images/RouteCanadaMap.gif" alt="Canada, Banff, AB biking route" class="maps">
-               
-          
-           
-           <img src="images/roosvilleMontanarRouteMap.gif" alt="Roosville, MT biking route">
-               
-           
-           
-           <img src="images/polarisWyomingRouteMap.gif" alt="Polaris, MT biking route">
-               
-           
-           
-           <img src="images/southpasscityColoradoRouteMap.gif" alt="South Pass City, WY biking route">
-               
-            
-           
-           <img src="images/silverthoneColoradoRouteMap.gif" alt="Silverthorne, CO biking route">
-               
-            
-           <img src="images/platoroColoradoRouteMap.gif" alt="Platoro, CO biking route">
-               
-            
-           
-           <img src="images/pietownNewMexicoRouteMap.gif" alt="Pie Town, NM biking route">
-           
+                   <ul>
+                     <li><h4>Great Divide Mountain Bike Route USA</h4>
+                        <ul>
+                            <li>
+                                <img src="images/Great_Divide_Mountain_Bike_Route.gif" alt="Great Divide route" class="maps"></ul></li>
+                       
+                    <li><h4>Banff, AB, Canada</h4>
+                        <ul>
+                   
+                            <li><img src="images/RouteCanadaMap.gif" alt="Canada, Banff, AB biking route" class="maps"></ul></li>
+                    
+                    <li><h4>Roosville, MT</h4>
+                        <ul>
+                            <li><img src="images/roosvilleMontanarRouteMap.gif" alt="Roosville, MT biking route" class="maps"></ul></li>
+                       
+                    <li><h4>Polaris, MT</h4>
+                        <ul>
+                            <li><img src="images/polarisWyomingRouteMap.gif" alt="Polaris, MT biking route" class="maps"></ul>
+                            </li>
+                    <li><h4>South Pass City, WY</h4>
+                        <ul>
+                            <li><img src="images/southpasscityColoradoRouteMap.gif" alt="South Pass City, WY biking route" class="maps"></ul></li>
+                    <li><h4>Silverthorne, CO</h4>
+                        <ul>
+                            <li><img src="images/silverthoneColoradoRouteMap.gif" alt="Silverthorne, CO biking route" class="maps"></ul></li>
+                    <li><h4>PLatoro, CO</h4>
+                        <ul>
+                            <li><img src="images/platoroColoradoRouteMap.gif" alt="Platoro, CO biking route" class="maps"></ul></li>
+                    <li><h4>Pie Town, NM</h4>
+                        <ul>
+                            <li><img src="images/pietownNewMexicoRouteMap.gif" alt="Pie Town, NM biking route" class="maps"></ul></li>
+                   </ul>
        
+            </div>
            
        </section>
         
@@ -167,13 +176,13 @@
          
                         <label class="labelTour"><span class="required">Full Name: </span><input name="fullname" type="text" value="" placeholder="Full name" pattern="[a-zA-Z -._]{5,99}" ></label>
          
-                        <label class="labelTour"><span class="required">Date of Birth: </span><input name="date of birth" type="date" value="" placeholder=""></label>       
+                        <label class="labelTour"><span class="required">Date of Birth: </span><input name="date of birth" type="date" value="" ></label>       
      
                         <label class="labelTour"><span class="required">Email:</span><input name="email" type="email" value="" placeholder="mountainbiking@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ></label>
          
                         <label class="labelTour"><span class="required">Phone:</span><input name="phone" type="tel" value="" placeholder="(456)333-9878" pattern="[0-9]{10,20}"></label>
                         
-                        <label class="labelTour"><span class="required">State, Country:</span><input name="phone" type="tel" value="" placeholder="(456)333-9878" pattern="[0-9]{10,20}"></label>
+                        <label class="labelTour"><span class="required">State, Country:</span><input name="phone" type="tel" value="" placeholder="Virginia, US" ></label>
                         
                         
                         
@@ -191,6 +200,8 @@ Place any question here ...</textarea>
             </section>
         
         </div>
+           
+           </div>
      
      
        
@@ -207,7 +218,8 @@ Place any question here ...</textarea>
             <p class="footer-bar">The Mountain Spoke <br>&copy;2018 All Rights Reserved <br> <span id="currentdate"></span></p>
             <i>1570 Westen Rd Bozeman, Montana, 33333</i><br>
             <i>1-800-333-4531</i><br>
-            <i>bozemanbike@themountainspoke.com</i>
+            <i>bozemanbike@themountainspoke.com</i><br>
+            <a href="references.html">Source references</a>
         </div>
      </aside>
     

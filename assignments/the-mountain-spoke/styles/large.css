@@ -104,6 +104,31 @@ p.contact {
     
 }
     
+/* event page */
+
+.textImage {
+    font-size: 36px;
+ }
+    
+.event {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+#formTour, .routeMap h3 {
+   text-align: center;     
+}
+    
+.textImage {
+   width:40%;    
+ }
+    
+.fieldsetTour {
+    width:60%;
+    margin-left: 25%;
+    
+}
+    
 /* Store page */
 
 .store {
@@ -115,9 +140,16 @@ p.contact {
     text-align: center;
 }
     
-.bikeOptions h4 {
+/*.accordian h4 {
      margin-bottom:100px;
      margin-top:60px;
+    }*/
+    
+/* Reference page */
+    
+    .references {
+        width:50%;
+        margin: auto;
     }
   
 }

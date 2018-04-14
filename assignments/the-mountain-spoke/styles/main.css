@@ -293,7 +293,7 @@ input.tourFormBtn {
     background-color:#e27d1b;
     opacity:0.7;
     color: #000000;
-    font-size: 36px;
+    font-size: 24px;
     padding:10px  ;
     position:absolute;
     width: 75%;
@@ -343,7 +343,7 @@ input.tourFormBtn {
     width:100%;
 }
 
-.bikeOptions {
+.accordian {
     width:100%;
     margin:auto;
     color:#824949;
@@ -351,15 +351,15 @@ input.tourFormBtn {
 }
 
 
-.bikeOptions li {
+.accordian li {
     list-style-type: none;
 }
 
-.bikeOptions table, td, th {
+.accordian table, td, th {
     border: 1px solid #000000;
 }
 
-.bikeOptions h4 {
+.accordian h4 {
     font-size: 18px;
     line-height: 34px;
     padding: 5px 15px;
@@ -367,8 +367,15 @@ input.tourFormBtn {
     background:rgba(226, 125, 27, 0.1);
 }
 
-.bikeOptions ul ul {
+.accordian ul ul {
     display:none;
+}
+
+/* Event page */
+
+.maps {
+    width:100%;
+    margin: auto;
 }
     
 
